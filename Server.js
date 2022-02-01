@@ -19,7 +19,7 @@ app.set('view engine', 'ejs');
 //connecting database
 
 var con = mysql.createConnection({
-    host: "localhost",
+    host: "127.0.0.1",
     user: "root",
     password: "",
     database:"nemisis",
