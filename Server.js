@@ -22,7 +22,10 @@ var con = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "",
-    database:"nemisis"
+    database:"nemisis",
+    socketPath: '/var/run/mysqld/mysqld.sock',
+    network_mode: "host"
+
   });
   
   con.connect(function(err) {
