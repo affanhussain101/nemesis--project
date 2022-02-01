@@ -23,7 +23,6 @@ var con = mysql.createConnection({
     user: "root",
     password: "",
     database:"nemisis",
-    socketPath: '/var/run/mysqld/mysqld.sock',
     network_mode: "host"
 
   });
